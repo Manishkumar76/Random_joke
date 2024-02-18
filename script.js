@@ -46,10 +46,11 @@ Husband: Ik Hi Banda Kar Sakda E, Oh Maange Raam? Haina?
 Wife: Oh God, Sahi Keha, Tuanu Kive Pta�
 Husband: Kabaadi E Na�`];
 
-let c=joke[Math.floor(Math.random()*joke.length)];
+let c="";
 console.log(c);
   
 
 let but=document.getElementById('button1').onclick=()=>{
+  c=joke[Math.floor(Math.random()*joke.length)];
 document.getElementById('joke').innerHTML = c;
 document.getElementById('joke').style.fontsize="large";}
