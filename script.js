@@ -50,4 +50,4 @@ Husband: Kabaadi E Na�`];
 document.getElementById('button1').onclick=()=>{
 let c=joke[Math.floor(Math.random()*joke.length)];
 document.getElementById('joke').innerHTML = c;
-document.getElementById('joke').style.fontsize="large";}
+document.getElementById('joke').style.fontsize="1000px";}
